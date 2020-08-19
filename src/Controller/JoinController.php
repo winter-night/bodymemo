@@ -5,13 +5,8 @@ namespace App\Controller;
 class JoinController extends AppController
 {
 
-    public function initialize()
-    {
-        $this->name = 'Join';
-        $this->viewBuilder()->autoLayout(false);
-        $this->autoRender = false;
-
-    }
+    public $name = 'Join';
+    public $autoRender = true;
 
     public function index()
     {
