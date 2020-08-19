@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <?php
-        echo $this->Html->css('cake.hello');
+        echo $this->Html->css('cake.Join');
         echo $this->fetch('meta');
         echo $this->fetch('css');
     ?>
